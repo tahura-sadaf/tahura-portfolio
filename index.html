@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tahura Sadaf's Portfolio</title>
+    <!-- ---------------- UNICONS -------------------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- ---------------- CSS -------------------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ---------------- FAVICON -------------------- -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="container">
+    <!-- ---------------HEADER---------------- -->
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Tahura</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav-menu-list">
+                <li class="nav-list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#project" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#certificate" class="nav-link">Certificates</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav-list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Tahura Sadaf CV.pdf" download="Tahura_Sadaf_CV.pdf"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+
+    <div id="hireModal" class="modal">
+        <div class="modal-content">
+            <span onclick="closeModal()" style="float: right; cursor: pointer;">&times;</span>
+            <h2>Contact Me</h2>
+            <p>Thank you for your interest in hiring me! I'd love to discuss opportunities with you.</p>
+            <p>Please feel free to reach out to me through email at: <strong>sadaftahura19@gmail.com</strong></p>
+        </div>
+    </div>
+
+
+    <!-- ---------------MAIN---------------- -->
+    <main class="wrapper">
+        <!-- ---------------FEATURED BOX---------------- -->
+
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Hello!</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm <span class="typedText">Tahura Sadaf</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Motivated and driven ECE Graduate. Proficient in an assortment of technologies and languages including Java, Python, HTML, CSS, JavaScript, SQL coupled with demonstrated adaptability a creative mindset. Eager to embark on a dynamic role and embrace opportunities for personal and professional growth.</p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn" onclick="openModal()">Hire Me</button>
+                    <a href="Tahura Sadaf CV.pdf" download="Tahura_Sadaf_CV.pdf"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+                </div>
+                <div class="social_icons">
+                    <div class="icon"><a href="https://www.linkedin.com/in/tahura-sadaf/"><i class="uil uil-linkedin-alt"></i></a></div>
+                    <div class="icon"><a href="mailto:sadaftahura19@gmail.com"><i class="uil uil-envelope"></i></a></div>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="image.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll Down</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- ---------------ABOUT BOX---------------- -->
+
+        <section class="section" id="about">
+            <div class="top-header">
+              <h1>About Me</h1>
+            </div>
+            <div class="row">
+              <div class="col">
+                  <div class="about-info">
+                      <h3>My introduction</h3>
+                      <p>I am from Gulbarga currently residing in Bangalore,Karnataka. I graduated from P.D.A College of Engineering in the stream of Electronics and Communication Engineering Branch with a strong interest in technology and a desire to pursue a career in the Software Industry.With a passion for coding and problem-solving, I've honed my skills in various languages & technologies. I'm eager to leverage my technical acumen to create innovative and user-friendly solutions.
+                        I am eager to embrace opportunities for both personal and professional growth.While I may be new to the professional world, my enthusiasm for learning and my adaptability make me well-prepared to tackle any challenge.
+                        Let's embark on this journey of innovation and growth together!
+                      </p>
+                      <div class="about-btn">
+                        <a href="Tahura Sadaf CV.pdf" download="Tahura_Sadaf_CV.pdf"><button class="btn">Download CV <i class="uil uil-import"></i></button></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="skills-box">
+                      <div class="skills-header">
+                          <h3>Programming & Web Development</h3>
+                      </div>
+                      <div class="skills-list">
+                          <span>Java</span>
+                          <span>HTML & CSS</span>
+                          <span>Bootstrap</span>
+                          <span>JavaScript</span>
+                          <span>Python</span>
+                          <span>OOPs</span>
+                          <span>SQL</span>
+                          <span>Salesforce</span>
+                      </div>
+                  </div>
+                  <div class="skills-box">
+                      <div class="skills-header">
+                          <h3>Data & Analytics</h3>
+                      </div>
+                      <div class="skills-list">
+                          <span>Python</span>
+                          <span>Excel</span>
+                          <span>Matplotlib</span>
+                          <span>Machine Learning</span>
+                          <span>Statistics</span>
+                          <span>Data Visualization</span>
+                          <span>Scikit-learn</span>
+                      </div>
+                  </div>
+                  <div class="skills-box">
+                      <div class="skills-header">
+                          <h3>Soft Skills</h3>
+                      </div>
+                      <div class="skills-list">
+                          <span>Adaptability</span>
+                          <span>problem solving</span>
+                          <span>Analytical thinking</span>
+                          <span>Creativity</span>
+                          <span>Teamwork</span>
+                          <span>Communication skills</span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+         </section>
+
+         <!-- ------------PROJECT BOX---------------- -->
+
+         <section class="section" id="project">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-building"></i>
+                    <h3>Bangalore Property Price Prediction</h3>
+                    <p>I undertook a project to develop a comprehensive solution for property price estimation. My task was to create a robust system from scratch. This involved data cleaning, feature engineering, selecting and optimizing regression models, setting up a Flask server, and designing a user-friendly website. The culmination of these efforts empowered users to obtain real-time property price predictions.</p>
+                </div>
+
+                <div class="project-box">
+                    <i class="uil uil-university"></i>
+                    <h3>Automatic Timetable Generator</h3>
+                    <p>Faced with the challenge of efficiently scheduling courses and the need for a streamlined solution. Designed and developed a user-friendly web tool using Genetic Algorithm(AI) for streamlined timetable creation for individual courses utilizing HTML, CSS and Javascript. This initiative significantly reduced the time required for course scheduling while ensuring optimal timetables for 500+ students.</p>
+                </div>
+                
+                <div class="project-box">
+                    <i class="uil uil-car-sideview"></i>
+                    <h3>Driver Anti Sleeping Device</h3>
+                    <p>Developed an innovative system aimed at mitigating road accidents caused by drowsy driving. Implemented a robust mechanism that detects driver drowsiness and triggers timely alerts by incorporating a buzzer-based notification system to effectively alert drivers when they show signs of losing consciousness with an accuracy of 95%.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- ------------PROJECT BOX---------------- -->
+
+         <section class="section" id="certificate">
+            <div class="top-header">
+                <h1>Certificates</h1>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="certificate1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                  <img src="certificate2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="certificate4.jpg" style="width:100%">
+                  </div>
+                <div class="mySlides fade">
+                  <img src="certificate3.jpg" style="width:100%">
+                </div>
+                
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+        </section>
+
+         <!-- ------------CONTACT BOX---------------- -->
+
+         <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Get in Touch</h1>
+                <span>You can contact me here..</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me <i class="uil uil-arrow-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email: sadaftahura19@gmail.com</p>
+                        <p><i class="uil uil-phone-alt"></i> Tel: +91 63626 79637</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="Name">
+                            <input type="text" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+    </main>
+
+
+    <!-- ---------------FOOTER---------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Tahura Sadaf .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#project">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#certificate">Certificates</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://www.linkedin.com/in/tahura-sadaf/"><i class="uil uil-linkedin-alt"></i></a></div>
+            <div class="icon"><a href="mailto:sadaftahura19@gmail.com"><i class="uil uil-envelope"></i></a></div>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <!-- ------------ TYPING JS LINK------------------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- ----------- SCROLL REVEAL JS LINK ------------- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- -----------MAIN JS ------------- -->
+    <script src="main.js"></script>
+</body>
+</html>
