@@ -686,6 +686,7 @@ footer{
         display: flex;
         justify-content: center;
         width: 100%;
+        margin-left: 20px;
     }
     .about-info, .contact-info{
         width:100%;
