@@ -111,7 +111,8 @@ sr.reveal('.top-header',{})
   })
   
   srLeft.reveal('.about-info',{delay: 100})
-  /*srLeft.reveal('.contact-info',{delay: 100})*/
+  srLeft.reveal('.contact-info',{delay: 100})
+
   /* -- ABOUT SKILLS & FORM BOX -- */
   const srRight = ScrollReveal({
     origin: 'right',
